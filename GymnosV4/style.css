@@ -1,0 +1,142 @@
+/* GLOBAL */
+body, html {
+    margin:0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background: url("img/skewbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button {
+    /* background: white !important; */
+}
+.content-title h1{
+    font-size: 700%;
+    font-weight:normal;
+    font-style: garamond;
+    text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.41)
+
+}
+.content-title h2{
+    font-size: 350%;
+    font-weight: 50;
+    margin-top: -90px;
+    text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.43)
+}
+.content-main p{
+    font-size: 200%;
+    display: block;
+margin-block-start: 4em;
+margin-block-end: 2.5em;
+margin-inline-start: -4em;
+margin-inline-end: 1em;
+text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.41)
+}
+.content-submit input{
+    width: 60%;
+    margin: -2em;
+    padding: 1em;
+    box-sizing: border-box;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.53);
+    border-radius: 10px;
+}
+.content-submit button{
+    margin-left: 40px;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.53);
+}
+.content-submit button:hover {
+  background: black;
+  color: white;
+}
+
+.web-container{
+    display: flex;
+    transform: skewX(-31deg);
+    height: 100vh;
+}
+.logo{
+    width:150px;
+    position: relative;
+    z-index: 1;
+}
+.logo img {
+    position: absolute;
+    left: -200px;
+    width: 400px;
+    transform: skewX(31deg);
+}
+.image div {
+    z-index: -2;
+    transform: skewX(31deg);
+    width: 200%;
+    height: 100%;
+    margin-left: 500px;
+}
+.content{
+    transform: skewX(31deg);
+    margin-left: 15%;
+    z-index: 1;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-size: 11px;
+}
+hr{
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 2em;
+    margin-block-end: -1px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+/* MOBILE */
+#mobile-container{
+    background: white;
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+/* _mobile__________________________________________________________________ */
+@media only screen and (max-width: 1200px){
+    .web-container{
+        display: none;
+    }
+    #mobile-container{
+        display: grid;
+        grid-template-rows: auto auto auto
+    }
+    .mobile-header * {
+        display: block;
+        text-align: center;
+    }
+    .mobile-header img {
+        width: 200px;
+        margin: 0 auto;
+    }
+    .mobile-social{
+        width: 100%;
+        text-align: center;
+    }
+    .mobile-social a {
+        display: inline-block;
+        margin: 1em;
+    }
+    .mobile-social img{
+        width: 45px;
+        display: flex;
+        border-radius: 50%;
+    }
+
+
+}
