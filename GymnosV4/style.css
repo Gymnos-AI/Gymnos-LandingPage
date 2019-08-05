@@ -3,37 +3,38 @@ body, html {
     margin:0;
     padding: 0;
     height: 100%;
-    background: url("img/skewbg9.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    overflow: hidden;
+
 }
 button {
-    /* background: white !important; */
+     background: white;
 }
-.content-title h1{
-
-    font-size: 700%;
-    font-weight:normal;
-    font-style: garamond;
-    text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.41)
-}
-.content-title h2{
-    font-size: 350%;
-    font-weight: 50;
-    margin-top: -90px;
-    text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.43)
-}
-.content-main p{
-    font-size: 200%;
+.content-title img{
     display: block;
-margin-block-start: 4em;
-margin-block-end: 2.5em;
-margin-inline-start: -4em;
-margin-inline-end: 1em;
-text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.41)
+  margin-left: auto;
+  margin-right: auto;
+  top: 20%;
+  width: 50%;
+}
+
+.content-main p{
+    position: absolute;
+    width: 60%;
+    height: 25%;
+    left: 20%;
+    top: 43%;
+    font-family: EB Garamond;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 250%;
+    display: flex;
+    align-items: center;
 }
 .content-submit input{
-    width: 60%;
+    position: absolute;
+left: 28%;
+top: 87%;
+    width: 35%;
     margin: -2em;
     padding: 1em;
     box-sizing: border-box;
@@ -42,7 +43,9 @@ text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.41)
     border-radius: 10px;
 }
 .content-submit button{
-    margin-left: 40px;
+    position: absolute;
+    left: 64%;
+    top: 83.8%;
     padding: 1em;
     border-radius: 10px;
     box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.53);
@@ -50,35 +53,6 @@ text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.41)
 .content-submit button:hover {
   background: black;
   color: white;
-}
-
-.web-container{
-    display: flex;
-    transform: skewX(-31deg);
-    height: 100vh;
-}
-.logo{
-    width:150px;
-    position: relative;
-    z-index: 1;
-}
-.logo img {
-    position: absolute;
-    left: -200px;
-    width: 400px;
-    transform: skewX(31deg);
-}
-.image div {
-    z-index: -2;
-    transform: skewX(31deg);
-    width: 200%;
-    height: 100%;
-    margin-left: 500px;
-}
-.content{
-    transform: skewX(31deg);
-    margin-left: 15%;
-    z-index: 1;
 }
 footer{
     position: fixed;
@@ -88,17 +62,6 @@ footer{
     display: block;
     font-size: 11px;
 }
-hr{
-    display: block;
-    unicode-bidi: isolate;
-    margin-block-start: 2em;
-    margin-block-end: -1px;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-    overflow: hidden;
-    border-style: inset;
-    border-width: 1px;
-}
 /* MOBILE */
 #mobile-container{
     background: white;
@@ -107,7 +70,7 @@ hr{
     display: none;
 }
 /* _mobile__________________________________________________________________ */
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 530px){
     .web-container{
         display: none;
     }
@@ -120,8 +83,10 @@ hr{
         text-align: center;
     }
     .mobile-header img {
-        width: 200px;
-        margin: 0 auto;
+        position: absolute;
+width: 80%;
+left: 13%;
+top: 5%;
     }
     .mobile-social{
         width: 100%;
@@ -136,6 +101,5 @@ hr{
         display: flex;
         border-radius: 50%;
     }
-
 
 }
