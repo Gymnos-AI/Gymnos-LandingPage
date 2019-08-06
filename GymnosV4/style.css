@@ -4,7 +4,6 @@ body, html {
     padding: 0;
     height: 100%;
     overflow: hidden;
-
 }
 button {
      background: white;
@@ -22,6 +21,21 @@ button {
     margin: 1em auto;
 }
 .content-main p{
+}
+.content-title{
+    text-align: center;
+    margin: 2.5em;
+}
+.content-title img{
+    width: 618px;
+}
+.content-main{
+    width: 60%;
+    margin: 0 auto;
+}
+.content-main p{
+    margin-top: 2.3em;
+    width: 100%;
     font-family: EB Garamond;
     font-style: normal;
     font-weight: normal;
@@ -37,6 +51,22 @@ button {
     text-align: center;
 }
 .content-submit input{
+=======
+    text-align: justify;
+}
+.content-submit {
+    width: 60%;
+    margin: 5em auto;
+    text-align: center;
+    display: flex;
+}
+.content-submit form {
+    width: 100%;
+}
+.content-submit input{
+    padding: 1em;
+    width: 60%;
+>>>>>>> Stashed changes
     box-sizing: border-box;
     width: 60%;
     padding:1em;
@@ -46,6 +76,11 @@ button {
 }
 .content-submit button{
     padding: 1em 2em;
+<<<<<<< Updated upstream
+=======
+    margin: 0.5em;
+    text-align: center;
+>>>>>>> Stashed changes
     border-radius: 10px;
     box-shadow:  0px 4px 4px rgba(0, 0, 0, 0.53);
 }
@@ -69,7 +104,7 @@ footer{
     display: none;
 }
 /* _mobile__________________________________________________________________ */
-@media only screen and (max-width: 530px){
+@media only screen and (max-width: 1000px){
     .web-container{
         display: none;
     }
@@ -82,23 +117,23 @@ footer{
         text-align: center;
     }
     .mobile-header img {
-        position: absolute;
-width: 80%;
-left: 13%;
-top: 5%;
+    position: absolute;
+    width: 80%;
+    left: 13%;
+    top: 5%;
     }
     .mobile-social{
-        width: 100%;
-        text-align: center;
+    width: 100%;
+    text-align: center;
     }
     .mobile-social a {
-        display: inline-block;
-        margin: 1em;
+    display: inline-block;
+    margin: 1em;
     }
     .mobile-social img{
-        width: 45px;
-        display: flex;
-        border-radius: 50%;
+    width: 45px;
+    display: flex;
+    border-radius: 50%;
     }
 
 }
