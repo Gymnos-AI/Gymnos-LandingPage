@@ -80,6 +80,9 @@ a:hover {
     margin: 0 auto;
     text-align: center;
 }
+#web-footer form {
+    margin-bottom: 25px;
+}
 #web-footer input {
     display: inline-block;
     padding: 1.3em;
