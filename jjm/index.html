@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,45 @@
     <link rel="stylesheet" href="style.css">
     <title>Gymnos - Fitness Through Technology</title>
 </head>
+
 <body>
     <div id="web-container">
-
+        <div id="web-header">
+            <div>
+                <!-- LEFT NAV -->
+                <a href="#">Home Page</a>
+                <a href="#">Gymnos Team</a>
+            </div>
+            <div>
+                <!-- MIDDLE LOGO -->
+                <h4>Prototypes:</h4>
+                <img src="img/gymnoslogo.png" alt="Gymnos Logo">
+            </div>
+            <div>
+                <!-- RIGHT NAV -->
+                <a href="#">Management</a>
+                <a href="#">Gym Members</a>
+            </div>
+        </div>
+        <div id="web-body">
+            <h2>Fitness Through Technology</h2>
+            <p>
+                Welcome to Gymnos! We’d like to invite you to enter your
+                email below to receive more information on our upcoming products!
+            </p>
+        </div>
+        <div id="web-footer">
+            <form action="https://formspree.io/info@gymnos.ca" method="POST" class="needs-validation" novalidate>
+                <input type="hidden" name="_subject" value="Message from GYMNOS website" />
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="email" placeholder="Email Address" name="_replyto" required/>
+                <button type="submit">Submit</button>
+           </form>
+        </div>
     </div>
+    <footer>
+        <em>Copyright &copy; GYMNOS</em>
+    </footer>
 </body>
+
 </html>
