@@ -5,70 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Gymnos - Fitness Through Technology</title>
     <link rel="stylesheet" href="style.css">
+    <title>Gymnos - Fitness Through Technology</title>
 </head>
 
 <body>
-    <div class="web-container">
-        <div class="image">
+    <div id="web-container">
+        <div id="web-header">
             <div>
-
+                <!-- LEFT NAV -->
+                <a href="#">Home Page</a>
+                <a href="#">Gymnos Team</a>
+            </div>
+            <div>
+                <!-- MIDDLE LOGO -->
+                <h4>Prototypes:</h4>
+                <img src="img/gymnoslogo.png" alt="Gymnos Logo">
+            </div>
+            <div>
+                <!-- RIGHT NAV -->
+                <a target="_blank" href="https://www.figma.com/proto/9MHL47LK64YBd5nepsIPpZ/Gymnos-Desktop?node-id=58%3A403&viewport=892%2C266%2C0.052033212035894394&scaling=scale-down&fbclid=IwAR3FtEqNCW-hOzCw0P5jRoJE3xg1zmXZKFw2_8w-O6yuB0Oh5aQdfouXDaE">Management</a>
+                <a href="#">Gym Members</a>
             </div>
         </div>
-        <div class="content">
-            <div class="content-title">
-                <img src="img/gymnoslogo.png" alt="logo">
-            </div>
-            <div class="content-main">
-                <p>
-                    Welcome to Gymnos! We’d like to invite you to enter
-                    your email below to receive more information on our
-                    upcoming products!
-                </p>
-            </div>
-            <div class="content-submit">
-                <form action="https://formspree.io/info@gymnos.ca" method="POST" class="needs-validation" novalidate>
-                    <input type="hidden" name="_subject" value="Message from GYMNOS website" />
-                    <input type="text" name="_gotcha" style="display:none" />
-                    <input type="email" placeholder="Email Address" name="_replyto" required/>
-                    <button type="submit">Submit</button>
-               </form>
-            </div>
+        <div id="web-body">
+            <h2>
+                <!-- SLOGAN -->
+                Fitness Through Technology
+            </h2>
+            <p>
+                <!-- DESCRIPTION -->
+                Welcome to Gymnos! We’d like to invite you to enter your
+                email below to receive more information on our upcoming products!
+            </p>
         </div>
-    </div>
-    <div id="mobile-container">
-        <div class="mobile-header">
-            <img src="img/gymnoslogo.png" alt="logo">
+        <div id="web-footer">
+            <form action="https://formspree.io/info@gymnos.ca" method="POST" class="needs-validation" novalidate>
+                <!-- EMAIL FORM -->
+                <input type="hidden" name="_subject" value="Message from GYMNOS website" />
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="email" placeholder="Email Address" name="_replyto" required/>
+                <button type="submit">Submit</button>
+           </form>
         </div>
-        <div class="mobile-main">
-            <div class="mobile-content">
-                <p>
-                    Welcome to Gymnos! We’d like to invite you to enter
-                    your email below to receive updates on
-                    our upcoming products!
-                </p>
-            </div>
-            <div class="mobile-submit">
-                <form action="https://formspree.io/info@gymnos.ca" method="POST" class="needs-validation" novalidate>
-                    <input type="hidden" name="_subject" value="Message from GYMNOS website" />
-                    <input type="text" name="_gotcha" style="display:none" />
-                    <input type="email" placeholder="Email Address" name="_replyto" required/>
-                    <button type="submit">Submit</button>
-               </form>
-            </div>
-            <div class="mobile-social">
+        <footer>
+            <div>
+                <a href="#"><img src="img/fb.png" alt="Facebook"></a>
                 <a href="#"><img src="img/ig.png" alt="Instagram"></a>
                 <a href="#"><img src="img/twitter.png" alt="Twitter"></a>
                 <a href="#"><img src="img/youtube.png" alt="Youtube"></a>
-                <a href="#"><img src="img/fb.png" alt="Facebook"></a>
             </div>
-        </div>
+            <em>Copyright &copy; GYMNOS</em>
+        </footer>
     </div>
-    <footer>
-
-        <em>Copyright &copy; GYMNOS 2019</em>
-    </footer>
 </body>
 
 </html>
