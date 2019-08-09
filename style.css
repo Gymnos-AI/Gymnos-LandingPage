@@ -4,7 +4,6 @@ body, html{
     padding: 0;
     box-sizing: border-box;
     height: 100%;
-    overflow: hidden;
 }
 a {
     color:inherit;
@@ -115,7 +114,7 @@ a:hover {
     cursor: pointer;
 }
 footer{
-    padding: 3em;
+    padding: 1em;
     box-shadow: 2px -2px 5px grey;
     text-align: center;
     background: grey;
