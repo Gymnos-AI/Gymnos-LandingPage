@@ -1,0 +1,26 @@
+{
+  "name": "material-kit",
+  "homepage": "https://github.com/issackj1/GymnosFrontEnd",
+  "authors": [
+    "Gymnos"
+  ],
+  "description": "gymnos",
+  "main": "index.html",
+  "keywords": [
+    "material",
+    "design",
+    "bootstrap",
+    "material",
+    "design",
+    "google",
+    "twitter"
+  ],
+  "license": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
