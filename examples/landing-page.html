@@ -203,7 +203,11 @@
           <div class="col-md-8 ml-auto mr-auto">
             <h2 class="text-center title">Work with us</h2>
             <h4 class="text-center description">Divide details about your product or agency work into parts. Write a few lines about each one and contact us about any further collaboration. We will responde get back to you in a couple of hours.</h4>
-            <form class="contact-form">
+            <form action="https://formspree.io/natu.o.h@gmail.com" method="POST" class="contact-form">
+              <input type="hidden" name="_subject" value="Message from GYMNOS website" />
+              <input type="text" name="name">
+              <input type="email" name="_replyto">
+              <input type="submit" value="Send">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
@@ -213,8 +217,9 @@
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label class="bmd-label-floating">Your Email</label>
-                    <input type="email" class="form-control">
+                    <label for="InputEmail" class="bmd-label-floating">Your Email</label>
+                    <input type="email" class="form-control" name="_replyto" placeholder="Enter email"
+                    required>
                   </div>
                 </div>
               </div>
